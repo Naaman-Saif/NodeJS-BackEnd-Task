@@ -1,0 +1,28 @@
+{
+  "name": "hacker-bay-round1",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha ./test/*.js --exit",
+    "lint": "eslint --fix ./"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "express": "^4.16.3",
+    "image-downloader": "^3.3.0",
+    "jimp": "^0.2.28",
+    "json-patch": "^0.7.0",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "^1.9.0"
+  },
+  "author":"Naaman Saif",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1"
+  }
+}
